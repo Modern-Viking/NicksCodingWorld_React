@@ -1,4 +1,4 @@
-{
+module.export = {
   "development": {
     "username": "root",
     "password": process.env.MYSQL_PASSWORD,
