@@ -15,10 +15,6 @@
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Modern-Viking/NicksCodingWorld_React/issues"
-  },
-  "homepage": "https://github.com/Modern-Viking/NicksCodingWorld_React#readme",
   "dependencies": {
     "express": "^4.17.1",
     "mysql2": "^2.1.0",
