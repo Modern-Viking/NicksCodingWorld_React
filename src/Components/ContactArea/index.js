@@ -14,7 +14,7 @@ return(
             <p>Contact me any way you would like. I will typically respond within a day.</p>  
             <p>If you would like to view my resume please follow this link: </p>
   <br/>
-          <a href="resume.html">
+          <a href="/resume">
           <i className="far fa-file-pdf fa-3x"></i>
           </a>
       </div>

@@ -1,23 +1,16 @@
 import React from 'react';
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import './App.css';
-import AboutArea from './Components/AboutArea/index';
-import LandingArea from './Components/LandingArea/index';
-import ProjectsArea from './Components/ProjectsArea';
-import LangArea from './Components/LangArea';
-import ContactArea from './Components/ContactArea';
-import ResumeArea from './Components/ResumeArea';
+import Main from './Pages/Main';
+import Resume from './Pages/Resume';
 
 class App extends React.Component {
   render(){
   return (
-    <div>
-    <LandingArea/>
-    <AboutArea/>
-    <ProjectsArea/>
-    <LangArea/>
-    <ContactArea/>
-    <ResumeArea/>
-    </div>
+    <Router>
+      <Route exact path="/" component={Main}/>
+      <Route exact path="/resume" component={Resume}/>
+    </Router>
   )
 }
 }
