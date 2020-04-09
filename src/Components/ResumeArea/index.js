@@ -11,7 +11,7 @@ class ResumeArea extends React.Component {
       <div>
         <canvas className="hero" id="c" height="100px" width="100px"></canvas>
       </div>
-                <h1 id="aboutTitle" className="title resume">
+                <h1 id="aboutTitle" className="resume">
                     Welcome to my Resume
                 </h1>
                 <a className="homeLink" href="index.html" id="content">Home</a>

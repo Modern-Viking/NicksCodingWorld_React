@@ -49,6 +49,10 @@ h1{
     font-size: 400%;
 }
 
+.title{
+  font-family: 'Marvel', sans-serif;
+}
+
 p{
     font-size: 100%;
   }
