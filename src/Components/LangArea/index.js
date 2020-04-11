@@ -1,8 +1,7 @@
 import React from "react";
 
-class LangArea extends React.Component {
+const LangArea = () => {
 
-render() {
   return(
 <section className="hero is-medium is-dark is-bold has-text-centered">
   <div className="hero-body">
@@ -52,7 +51,7 @@ render() {
     </div>
   </div>
 </section>
-  )}
+  )
 };
 
 export default LangArea;

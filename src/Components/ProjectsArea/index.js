@@ -6,9 +6,8 @@ import SearchPage from "../../Images/search page.jpg";
 import LeagueManager from "../../Images/leagueManager.png";
 import Burger from "../../Images/buger.jpg";
 
-class ProjectsArea extends React.Component {
+const ProjectsArea = () => {
 
-render(){
   return (
 <section className="hero is-dark is-fullheight has-text-centered">
   <div className="hero-body">
@@ -161,7 +160,7 @@ render(){
     </div>
   </div>
 </section>
-)}
+)
 };
 
 export default ProjectsArea;

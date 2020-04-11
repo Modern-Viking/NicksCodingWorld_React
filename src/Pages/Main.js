@@ -5,8 +5,7 @@ import ProjectsArea from '../Components/ProjectsArea';
 import LangArea from '../Components/LangArea';
 import ContactArea from '../Components/ContactArea';
 
-class Main extends React.Component {
-    render(){
+const Main = function() {
     return (
         <div>
         <LandingArea/>
@@ -16,7 +15,6 @@ class Main extends React.Component {
         <ContactArea/>
         </div>
         )
-    }
 }
 
 export default Main;

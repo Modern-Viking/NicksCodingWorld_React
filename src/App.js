@@ -4,15 +4,13 @@ import './App.css';
 import Main from './Pages/Main';
 import Resume from './Pages/Resume';
 
-class App extends React.Component {
-  render(){
+const App = function() {
   return (
     <Router>
       <Route exact path="/" component={Main}/>
       <Route exact path="/resume" component={Resume}/>
     </Router>
   )
-}
 }
 
 export default App;

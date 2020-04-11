@@ -1,8 +1,7 @@
 import React from "react";
 
 
-class ContactArea extends React.Component {
-  render(){
+const ContactArea = () => {
 return(
 <section className="hero is-medium is-dark is-bold has-text-centered">
   <div className="hero-body">
@@ -44,7 +43,6 @@ return(
 </div>
 </section>
 )
-}
 };
 
 export default ContactArea;

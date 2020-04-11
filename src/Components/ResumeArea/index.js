@@ -1,9 +1,8 @@
 import React from "react";
 import Resume from "../../pdfs/Nicolaus_Thomas_Programming_Resume.pdf"
 
-class ResumeArea extends React.Component {
+const ResumeArea = function() {
 
-  render(){
     return(
 <section className="hero is-dark is-bold is-fullheight has-text-centered">
   <div className="hero-body">
@@ -22,7 +21,7 @@ class ResumeArea extends React.Component {
     </div>
   </div>
 </section>
-  )}
+  )
 };
 
 export default ResumeArea

@@ -1,8 +1,7 @@
 import React from "react";
 import Canvas from "../Canvas";
-class LandingArea extends React.Component {
+const LandingArea = () =>{
 
-  render(){
   return(
 <section className="hero is-dark is-bold is-fullheight">
   <Canvas/>
@@ -14,7 +13,6 @@ class LandingArea extends React.Component {
       <div className="scroll-down" href="#aboutPage"></div>
 </section>
   );
-  };
 }
 
 export default LandingArea;
