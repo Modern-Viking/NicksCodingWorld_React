@@ -141,21 +141,14 @@ const ProjectsArea = () => {
 <p className="subtitle is-6">Manage your rec league all from one spot</p>
 </div>
 
-<footer className="card-footer">
-<a href="https://github.com/seanianking/SoggyBottomboys-Project2" rel="noopener noreferrer" target="_blank" className="card-footer-item">Github Repo</a>
-<a href="https://soggybottomleaguemanager.herokuapp.com/" rel="noopener noreferrer" target="_blank" className="card-footer-item">Deployed Site</a>
-</footer>
+              <footer className="card-footer">
+                <a href="https://github.com/seanianking/SoggyBottomboys-Project2" rel="noopener noreferrer" target="_blank" className="card-footer-item">Github Repo</a>
+                <a href="https://soggybottomleaguemanager.herokuapp.com/" rel="noopener noreferrer" target="_blank" className="card-footer-item">Deployed Site</a>
+              </footer>
 
-</div>
-</div>
-</div>
-
-
-
-
-
-
-
+            </div>
+          </div>
+        </div>
       </section>
     </div>
   </div>
